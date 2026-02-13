@@ -1,0 +1,67 @@
+{
+  "name": "Roblox-Rojo-Template",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Rojo": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "Rojo": {
+        "$path": "src/first"
+      }
+    },
+
+    "ServerScriptService": {
+      "Rojo": {
+        "$path": "src/server"
+      }
+    },
+
+    "ServerStorage": {
+      "Rojo": {
+        "$path": "src/storage"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Rojo": {
+          "$path": "src/client"
+        }
+      },
+      "StarterCharacterScripts": {
+        "Rojo": {
+          "$path": "src/character"
+        }
+      }
+    },
+
+    "StarterGui": {
+      "Rojo": {
+        "$path": "src/ui"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    
+    "TestService": {
+      "$className": "TestService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/TestService"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Project place file
+/random stuff.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
+
+# Editor-specific
+.vscode/
+.idea/
